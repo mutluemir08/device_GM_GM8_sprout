@@ -1,2 +1,0 @@
-allow zygote zygote:capability { kill };
-allow zygote exported_camera_prop:file { read } ;

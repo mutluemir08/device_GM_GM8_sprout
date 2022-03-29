@@ -1,2 +1,0 @@
-# Binder call with hal_perf_default
-binder_call(bluetooth, hal_perf_default)
