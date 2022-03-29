@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_daisy.mk
+    $(LOCAL_DIR)/lineage_GM8_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_daisy-user \
-    derp_daisy-userdebug \
-    derp_daisy-eng
+    lineage_GM8_sprout-user \
+    lineage_GM8_sprout-userdebug \
+    lineage_GM8_sprout-eng
