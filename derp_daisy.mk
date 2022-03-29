@@ -18,47 +18,29 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-#
-# All components inherited here go to system_ext image
-#
-$(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
-
 # Inherit from daisy device
-$(call inherit-product, device/xiaomi/daisy/device.mk)
+$(call inherit-product, device/GM/GM8_sprout/device.mk)
 
 # Inherit some common DerpFest Rom stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
-
-# Inherit some VendorExtra stuff
-$(call inherit-product-if-exists, vendor/custom/prebuilts/config.mk)
-
-# Use MiuiCamera
-WITH_MIUICAM := true
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Bootanimation
-TARGET_BOOT_ANIMATION_RES := 1080
-
-TARGET_DISABLE_POSTRENDER_CLEANUP := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := TARGET_SUPPORTS_GOOGLE_RECORDER
-
-# Official-ify
-DERP_BUILDTYPE := Official
+TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := daisy
-PRODUCT_NAME := derp_daisy
-BOARD_VENDOR := Xiaomi
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi A2 Lite
-PRODUCT_MANUFACTURER := Xiaomi
-TARGET_VENDOR := Xiaomi
+PRODUCT_DEVICE := GM8_sprout
+PRODUCT_NAME := lineage_GM8_sprout
+PRODUCT_BRAND := General Mobile
+PRODUCT_MODEL := GM 8
+PRODUCT_MANUFACTURER := General Mobile
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+PRODUCT_GMS_CLIENTID_BASE := android-gm
+TARGET_VENDOR := gm
+TARGET_VENDOR_PRODUCT_NAME := GM8_sprout
+PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="msm8937_64-user 9 OPM1.171019.011 18 release-keys"
 
 # Fingerprint
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.211001.001/7641976:user/release-keys
-BUILD_DESCRIPTION := redfin-user 11 RQ3A.211001.001 7641976 release-keys
+BUILD_FINGERPRINT := essential/mata/mata:8.1.0/OPM1.180104.092/224:user/release-keys
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
