@@ -7,27 +7,26 @@
 #
 ```
 
-The Mi A2 Lite (codenamed _"daisy"_) smartphone from Xiaomi.
+The General Mobile GM 8 (codenamed _"GM8_sprout"_) smartphone from General Mobile.
 
-Xiaomi Mi A2 Lite was announced and released in July 2018.
+General Mobile was announced and released in February 2018.
 
 ## Device specifications
 
-| Device       | Xiaomi Mi A2 Lite                               |
+| Device       | General Mobile GM 8                             |
 | -----------: | :---------------------------------------------- |
-| SoC          | Qualcomm MSM8953 Snapdragon 625                 |
-| CPU          | Octa-core 2.0 GHz Cortex-A53                    |
-| GPU          | Adreno 506                                      |
-| Memory       | 3/4 GB                                          |
-| Shipped Android version | 8.1.0                                |
-| Storage      | 32/64 GB                                        |
-| Battery      | Non-removable Li-Po 4000 mAh                    |
+| SoC          | Qualcomm MSM8940 Snapdragon 435                 |
+| CPU          | Octa-core 1.4 GHz Cortex-A53                    |
+| GPU          | Adreno 505                                      |
+| Memory       | 3 GB                                            |
+| Shipped Android version | 8.0.0                                |
+| Storage      | 32 GB                                           |
+| Battery      | Non-removable Li-Po 3075 mAh                    |
 | Dimensions   | 149.3 x 71.7 x 8.8 mm                           |
-| Display      | 1080 x 2280 pixels (~432 ppi)                   |
-| Rear camera 1 | 12 MP, f/2.2, 1.25 μm, PDAF                    |
-| Rear camera 2 | 5 MP, f/2.2, 1.12 μm, depth sensor             |
-| Front camera | 5 MP, f/2.0                                     |
+| Display      | 720 x 1440 pixels (~282 ppi)                    |
+| Rear camera  | 13 MP, f/2.0, 1.25 μm, PDAF                     |
+| Front camera | 13 MP, f/2.2                                    |
 
 ## Device picture
 
-![Xiaomi Mi A2 Lite](https://i.imgur.com/37raZZt.png)
+![General Mobile GM8](https://cdn.akakce.com/general-mobile/general-mobile-gm-8-32-gb-z.jpg)
